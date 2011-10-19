@@ -1,8 +1,8 @@
 Ext.define('JSApp.test.controller.Main', {
     extend : 'Ext.app.Controller',
 
-    stores : [], //doesn't work
-    models : [], //doesn't work
+    stores : ['JSApp.test.store.Test'],
+    models : ['JSApp.test.model.Test'],
 
     init: function() {
         var me = this;

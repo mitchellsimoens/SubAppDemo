@@ -2,7 +2,8 @@ Ext.Loader.setConfig({
     enabled        : true,
     paths          : {
         'Ext.ux'  : 'assets/ux',
-        'Ext.app' : 'assets/ux/app'
+        'Ext.app' : 'assets/ux/app',
+        'JSApp'   : 'apps'
     }
 });
 
